@@ -2,53 +2,40 @@ import math
 
 def add(a, b):
     return a + b
-
 def subtract(a, b):
     return a - b
-
 def multiply(a, b):
     return a * b
-
 def divide(a, b):
     if b == 0:
         return "Error: Division by zero is not allowed."
     return a / b 
-
 def modulo(a, b):
     return a % b
-
 def power(a, b):
     return a ** b
-
 def square_root(a):
     if a < 0:
         return "Error: Square root is not defined for negative numbers."
     return a ** 0.5
-
 def log_base_10(a):
     if a <= 0:
         return "Error: Logarithm is not defined for numbers less than or equal to zero."
     return math.log10(a)
-
 def log_base_e(a):
     if a <= 0:
         return "Error: Logarithm is not defined for numbers less than or equal to zero."
     return math.log(a)
-
 def sine(a):
     return math.sin(math.radians(a))
-
 def cosine(a):
     return math.cos(math.radians(a))
-
 def tangent(a):
     return math.tan(math.radians(a))
-
 def factorial(a):
     if not isinstance(a, int) or a < 0:
         return "Error: Factorial is only defined for non-negative integers."
     return math.factorial(a)
-
 while True:
     try:
         operation = int(input("Select the operation you want to use:"
