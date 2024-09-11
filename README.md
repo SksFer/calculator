@@ -1,7 +1,8 @@
 This Python script implements a basic calculator capable of performing various mathematical operations. The calculator supports operations with both one and two input values and includes error handling to manage invalid input scenarios.
 
 Features
-Addition: add(a, b) - Returns the sum of a and b.
+Addition: add(a, b) - Returns the sum of a and b. \\
+
 Subtraction: subtract(a, b) - Returns the difference between a and b.
 Multiplication: multiply(a, b) - Returns the product of a and b.
 Division: divide(a, b) - Returns the quotient of a divided by b. Handles division by zero.
