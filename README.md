@@ -13,4 +13,4 @@ Natural Logarithm (Base e): log_base_e(a) - Returns the natural logarithm (base 
 Sine: sine(a) - Returns the sine of angle a (in degrees).\
 Cosine: cosine(a) - Returns the cosine of angle a (in degrees).\
 Tangent: tangent(a) - Returns the tangent of angle a (in degrees).\
-Factorial: factorial(a) - Returns the factorial of a non-negative integer a. Handles non-integer or negative input by returning an error message.\
+Factorial: factorial(a) - Returns the factorial of a non-negative integer a. Handles non-integer or negative input by returning an error message.
